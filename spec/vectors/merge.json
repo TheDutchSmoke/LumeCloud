@@ -3,7 +3,6 @@
     {
       "local" : {
         "data" : {
-          "disabledContentRaw" : "",
           "epgURL" : null,
           "hiddenTabsRaw" : "",
           "id" : "0A1B2C3D-0000-4000-8000-00000000AB01",
@@ -22,7 +21,6 @@
       },
       "merged" : {
         "data" : {
-          "disabledContentRaw" : "",
           "epgURL" : null,
           "hiddenTabsRaw" : "",
           "id" : "0A1B2C3D-0000-4000-8000-00000000AB01",
@@ -42,7 +40,6 @@
       "name" : "remote wins",
       "remote" : {
         "data" : {
-          "disabledContentRaw" : "",
           "epgURL" : null,
           "hiddenTabsRaw" : "",
           "id" : "0A1B2C3D-0000-4000-8000-00000000AB01",
@@ -426,6 +423,7 @@
   "reconcile" : [
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -438,6 +436,7 @@
       },
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -450,6 +449,7 @@
       },
       "name" : "unchanged on both sides",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -465,6 +465,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -477,6 +478,7 @@
       },
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -489,6 +491,7 @@
       },
       "name" : "local edit is pushed",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -500,6 +503,7 @@
         "username" : "viewer"
       },
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -514,6 +518,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -526,6 +531,7 @@
       },
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -538,6 +544,7 @@
       },
       "name" : "remote edit is pulled",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -549,6 +556,7 @@
         "username" : "viewer"
       },
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -563,6 +571,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -577,6 +586,7 @@
       "local" : null,
       "name" : "local deletion is pushed",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -592,6 +602,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -604,6 +615,7 @@
       },
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -623,6 +635,7 @@
       "base" : null,
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -636,6 +649,7 @@
       "name" : "created locally",
       "remote" : null,
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -654,6 +668,7 @@
       "local" : null,
       "name" : "created remotely",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -665,6 +680,7 @@
         "username" : "viewer"
       },
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -679,6 +695,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -691,6 +708,7 @@
       },
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -703,6 +721,7 @@
       },
       "name" : "same edit on both sides only re-baselines",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -714,6 +733,7 @@
         "username" : "viewer"
       },
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -728,6 +748,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -740,6 +761,7 @@
       },
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -752,6 +774,7 @@
       },
       "name" : "conflicting edits: remote wins",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -763,6 +786,7 @@
         "username" : "viewer"
       },
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -777,6 +801,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -789,6 +814,7 @@
       },
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -802,6 +828,7 @@
       "name" : "local edit survives a remote deletion",
       "remote" : null,
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -816,6 +843,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -830,6 +858,7 @@
       "local" : null,
       "name" : "remote edit survives a local deletion",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -841,6 +870,7 @@
         "username" : "viewer"
       },
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -855,6 +885,7 @@
     },
     {
       "base" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -876,6 +907,7 @@
       "base" : null,
       "collection" : "playlist",
       "local" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "",
         "macAddress" : "",
@@ -888,6 +920,7 @@
       },
       "name" : "created differently on both sides: remote wins",
       "remote" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",
@@ -899,6 +932,7 @@
         "username" : "viewer"
       },
       "value" : {
+        "combinedTypesRaw" : "",
         "disabledContentRaw" : "",
         "hiddenTabsRaw" : "series",
         "macAddress" : "",

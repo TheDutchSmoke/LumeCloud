@@ -9,12 +9,11 @@
   ],
   "records" : [
     {
-      "canonicalPayload" : "{\"data\":{\"disabledContentRaw\":\"\",\"epgURL\":\"http://provider.example:8080/xmltv.php\",\"hiddenTabsRaw\":\"series,liveTV\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB01\",\"macAddress\":\"\",\"name\":\"Harbor Lights\",\"password\":\"secret\",\"serverURL\":\"http://provider.example:8080\",\"sourceTypeRaw\":\"xtream\",\"syncEnabled\":true,\"updatedAt\":1760000123456,\"username\":\"viewer\"},\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB01\",\"type\":\"playlist\",\"v\":1}",
+      "canonicalPayload" : "{\"data\":{\"epgURL\":\"http://provider.example:8080/xmltv.php\",\"hiddenTabsRaw\":\"series,liveTV\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB01\",\"macAddress\":\"\",\"name\":\"Harbor Lights\",\"password\":\"secret\",\"serverURL\":\"http://provider.example:8080\",\"sourceTypeRaw\":\"xtream\",\"syncEnabled\":true,\"updatedAt\":1760000123456,\"username\":\"viewer\"},\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB01\",\"type\":\"playlist\",\"v\":1}",
       "logicalKey" : "playlist/0A1B2C3D-0000-4000-8000-00000000AB01",
       "name" : "xtream playlist",
       "payload" : {
         "data" : {
-          "disabledContentRaw" : "",
           "epgURL" : "http://provider.example:8080/xmltv.php",
           "hiddenTabsRaw" : "series,liveTV",
           "id" : "0A1B2C3D-0000-4000-8000-00000000AB01",
@@ -34,12 +33,11 @@
       "rid" : "1dWyHOeSOHf4gvduNMnQmUuBFnMW5zchSyfJhyyuPtE"
     },
     {
-      "canonicalPayload" : "{\"data\":{\"disabledContentRaw\":\"\",\"epgURL\":null,\"hiddenTabsRaw\":\"\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB02\",\"macAddress\":\"00:1A:79:00:00:01\",\"name\":\"Zoë's \\\"Portal\\\"\",\"password\":\"\",\"serverURL\":\"http://portal.example/c/\",\"sourceTypeRaw\":\"stalker\",\"syncEnabled\":false,\"updatedAt\":1760000123456,\"username\":\"\"},\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB02\",\"type\":\"playlist\",\"v\":1}",
+      "canonicalPayload" : "{\"data\":{\"epgURL\":null,\"hiddenTabsRaw\":\"\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB02\",\"macAddress\":\"00:1A:79:00:00:01\",\"name\":\"Zoë's \\\"Portal\\\"\",\"password\":\"\",\"serverURL\":\"http://portal.example/c/\",\"sourceTypeRaw\":\"stalker\",\"syncEnabled\":false,\"updatedAt\":1760000123456,\"username\":\"\"},\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB02\",\"type\":\"playlist\",\"v\":1}",
       "logicalKey" : "playlist/0A1B2C3D-0000-4000-8000-00000000AB02",
       "name" : "stalker playlist without an EPG URL",
       "payload" : {
         "data" : {
-          "disabledContentRaw" : "",
           "epgURL" : null,
           "hiddenTabsRaw" : "",
           "id" : "0A1B2C3D-0000-4000-8000-00000000AB02",
@@ -59,12 +57,11 @@
       "rid" : "yYFUkWeg3-N-HOk2dMd-sCXkrpEriTtqbQSQ5SrpLTI"
     },
     {
-      "canonicalPayload" : "{\"data\":{\"disabledContentRaw\":\"\",\"epgURL\":\"http://provider.example:8080/xmltv.php\",\"futureField\":{\"nested\":[\"é\",\"a/b\",0.00001,1e+21]},\"hiddenTabsRaw\":\"series,liveTV\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB01\",\"macAddress\":\"\",\"name\":\"Harbor Lights\",\"password\":\"secret\",\"serverURL\":\"http://provider.example:8080\",\"sourceTypeRaw\":\"xtream\",\"syncEnabled\":true,\"updatedAt\":1760000123456,\"username\":\"viewer\"},\"futureMeta\":\"kept\",\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB01\",\"type\":\"playlist\",\"v\":1}",
+      "canonicalPayload" : "{\"data\":{\"epgURL\":\"http://provider.example:8080/xmltv.php\",\"futureField\":{\"nested\":[\"é\",\"a/b\",0.00001,1e+21]},\"hiddenTabsRaw\":\"series,liveTV\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB01\",\"macAddress\":\"\",\"name\":\"Harbor Lights\",\"password\":\"secret\",\"serverURL\":\"http://provider.example:8080\",\"sourceTypeRaw\":\"xtream\",\"syncEnabled\":true,\"updatedAt\":1760000123456,\"username\":\"viewer\"},\"futureMeta\":\"kept\",\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB01\",\"type\":\"playlist\",\"v\":1}",
       "logicalKey" : "playlist/0A1B2C3D-0000-4000-8000-00000000AB01",
       "name" : "unknown data survives a re-encode",
       "payload" : {
         "data" : {
-          "disabledContentRaw" : "",
           "epgURL" : "http://provider.example:8080/xmltv.php",
           "futureField" : {
             "nested" : [
@@ -90,8 +87,61 @@
         "type" : "playlist",
         "v" : 1
       },
-      "previousCanonicalPayload" : "{\"data\":{\"disabledContentRaw\":\"\",\"epgURL\":\"http://provider.example:8080/xmltv.php\",\"futureField\":{\"nested\":[\"é\",\"a/b\",0.00001,1e+21]},\"hiddenTabsRaw\":\"series,liveTV\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB01\",\"macAddress\":\"\",\"name\":\"Harbor Lights\",\"password\":\"secret\",\"serverURL\":\"http://provider.example:8080\",\"sourceTypeRaw\":\"xtream\",\"syncEnabled\":true,\"updatedAt\":1759000000000,\"username\":\"viewer\"},\"futureMeta\":\"kept\",\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB01\",\"type\":\"playlist\",\"v\":1}",
+      "previousCanonicalPayload" : "{\"data\":{\"epgURL\":\"http://provider.example:8080/xmltv.php\",\"futureField\":{\"nested\":[\"é\",\"a/b\",0.00001,1e+21]},\"hiddenTabsRaw\":\"series,liveTV\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB01\",\"macAddress\":\"\",\"name\":\"Harbor Lights\",\"password\":\"secret\",\"serverURL\":\"http://provider.example:8080\",\"sourceTypeRaw\":\"xtream\",\"syncEnabled\":true,\"updatedAt\":1759000000000,\"username\":\"viewer\"},\"futureMeta\":\"kept\",\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB01\",\"type\":\"playlist\",\"v\":1}",
       "rid" : "1dWyHOeSOHf4gvduNMnQmUuBFnMW5zchSyfJhyyuPtE"
+    },
+    {
+      "canonicalPayload" : "{\"data\":{\"combinedPriority\":1,\"combinedTypesRaw\":\"movies,liveTV\",\"epgURL\":null,\"hiddenTabsRaw\":\"\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB03\",\"macAddress\":\"\",\"name\":\"Seaside Mix\",\"password\":\"\",\"serverURL\":\"http://mix.example/get.php\",\"sourceTypeRaw\":\"m3u\",\"syncEnabled\":true,\"updatedAt\":1760000123456,\"username\":\"\"},\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB03\",\"type\":\"playlist\",\"v\":1}",
+      "logicalKey" : "playlist/0A1B2C3D-0000-4000-8000-00000000AB03",
+      "name" : "combined playlist",
+      "payload" : {
+        "data" : {
+          "combinedPriority" : 1,
+          "combinedTypesRaw" : "movies,liveTV",
+          "epgURL" : null,
+          "hiddenTabsRaw" : "",
+          "id" : "0A1B2C3D-0000-4000-8000-00000000AB03",
+          "macAddress" : "",
+          "name" : "Seaside Mix",
+          "password" : "",
+          "serverURL" : "http://mix.example/get.php",
+          "sourceTypeRaw" : "m3u",
+          "syncEnabled" : true,
+          "updatedAt" : 1760000123456,
+          "username" : ""
+        },
+        "key" : "playlist/0A1B2C3D-0000-4000-8000-00000000AB03",
+        "type" : "playlist",
+        "v" : 1
+      },
+      "rid" : "LS7osYntFyntQzGay2NgRxIDAdmXxTsjjlis8mB2XdQ"
+    },
+    {
+      "canonicalPayload" : "{\"data\":{\"combinedPriority\":null,\"combinedTypesRaw\":\"\",\"epgURL\":null,\"hiddenTabsRaw\":\"\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB03\",\"macAddress\":\"\",\"name\":\"Seaside Mix\",\"password\":\"\",\"serverURL\":\"http://mix.example/get.php\",\"sourceTypeRaw\":\"m3u\",\"syncEnabled\":true,\"updatedAt\":1760000123456,\"username\":\"\"},\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB03\",\"type\":\"playlist\",\"v\":1}",
+      "logicalKey" : "playlist/0A1B2C3D-0000-4000-8000-00000000AB03",
+      "name" : "leaving Combined writes the defaults",
+      "payload" : {
+        "data" : {
+          "combinedPriority" : null,
+          "combinedTypesRaw" : "",
+          "epgURL" : null,
+          "hiddenTabsRaw" : "",
+          "id" : "0A1B2C3D-0000-4000-8000-00000000AB03",
+          "macAddress" : "",
+          "name" : "Seaside Mix",
+          "password" : "",
+          "serverURL" : "http://mix.example/get.php",
+          "sourceTypeRaw" : "m3u",
+          "syncEnabled" : true,
+          "updatedAt" : 1760000123456,
+          "username" : ""
+        },
+        "key" : "playlist/0A1B2C3D-0000-4000-8000-00000000AB03",
+        "type" : "playlist",
+        "v" : 1
+      },
+      "previousCanonicalPayload" : "{\"data\":{\"combinedPriority\":1,\"combinedTypesRaw\":\"movies,liveTV\",\"epgURL\":null,\"hiddenTabsRaw\":\"\",\"id\":\"0A1B2C3D-0000-4000-8000-00000000AB03\",\"macAddress\":\"\",\"name\":\"Seaside Mix\",\"password\":\"\",\"serverURL\":\"http://mix.example/get.php\",\"sourceTypeRaw\":\"m3u\",\"syncEnabled\":true,\"updatedAt\":1760000123456,\"username\":\"\"},\"key\":\"playlist/0A1B2C3D-0000-4000-8000-00000000AB03\",\"type\":\"playlist\",\"v\":1}",
+      "rid" : "LS7osYntFyntQzGay2NgRxIDAdmXxTsjjlis8mB2XdQ"
     }
   ],
   "rootKey" : "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8",
